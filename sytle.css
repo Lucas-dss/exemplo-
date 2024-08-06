@@ -1,8 +1,23 @@
-body{
-    background-image: url("images/caramelo.png");
-    background-size: cover;
-    text-align: center;
+body {
+  background-image: url("images/caramelo.png");
+  background-size: cover;
+  text-align: center;
 }
-hr{
-    border: 3px dotted darkred;
+table {
+  align-self: center;
+}
+hr {
+  border: 3px dotted darkred;
+}
+.vermelho {
+  background-color: rgb(255, 53, 53);
+}
+.amarelo {
+  background-color: rgb(255, 238, 172);
+}
+.preto {
+  background-color: darkslategray;
+}
+table {
+  transform: matrix(1, 0, 0, 1, 250, 0);
 }
